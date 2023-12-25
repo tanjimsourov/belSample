@@ -7,39 +7,52 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="page background full-screen">
-        <div class="shadow"></div>
-        <div class="main">
-            <h2 class="title">Lorem Ipsum is simply dummy text of the printing</h2>
-            <h4 class="sub-title">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</h4>
-            <div class="line"></div>
-            <div class="product">
-                <h2 class="product-details">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is</h2>
+    <div class="page full-screen">
+
+        <div class="clock-wrap">
+            <h2 class="clock-title">Lorem Ipsum is simply dummy<br> text of the printing</h2>
+            <div class="clock">
+                <div class="h-hand" id="hour"> </div>
+                <div class="m-hand" id="min"> </div>
+                <div class="s-hand" id="sec"> </div>
+            </div>
+        </div>
+        <div class="main background">
+            <div class="shadow"></div>
+            
+            <div class="result">
+                <h2 class="title">Lorem Ipsum is simply</h2>
+                
                 <div class="space-50"></div>
                 <div class="grid-3">
 
                     <div class="box">
-                        <img class="box-image" id="boxImageID">
-                        <h3 class="box-title" id="boxt"></h3>
-                        <p class="box-subtitle" id="boxst"></p>
+                        <h3 class="box-title"> Dagopbrengst</h3>
+                        <div class="details">
+                            <img class="box-image" src="assets/img/solar.png" alt="">
+                            <p class="box-subtitle">107,73 kWh</p>
+                        </div>
                     </div>
-                    <p>of</p>
                     <div class="box">
-                        <img class="box-image" id="boxImageID" alt="">
-                        <h3 class="box-title" id="boxt"></h3>
-                        <p class="box-subtitle" id="boxst"></p>
+                        <h3 class="box-title">Maandopbrengst</h3>
+                        <div class="details">
+                            <img class="box-image" src="assets/img/solar.png" alt="">
+                            <p class="box-subtitle">1.972,05 kWh</p>
+                        </div>
                     </div>
-                    <p>of</p>
                     <div class="box">
-                        <img class="box-image" id="boxImageID" alt="">
-                        <h3 class="box-title" id="boxt"></h3>
-                        <p class="box-subtitle" id="boxst"></p>
+                        <h3 class="box-title">Jaaropbrengst</h3>
+                        <div class="details">
+                            <img class="box-image" src="assets/img/solar.png" alt="">
+                            <p class="box-subtitle">328,37 MWh</p>
+                        </div>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="app.js"></script>
 </body>
 </html>
